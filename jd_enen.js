@@ -47,7 +47,6 @@ if ($.isNode()) {
         // $.msg($.name, `【提示】cookie已失效`, `京东账号${$.index} ${$.nickName || $.UserName}\n请重新登录获取\nhttps://bean.m.jd.com/bean/signIndex.action`, {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
         continue
       } else {
-        continue
         $.get({
           url: `https://plogin.m.jd.com/cgi-bin/ml/mlogout?appid=300&returnurl=https%3A%2F%2Fm.jd.com%2F`,
           headers: {
@@ -401,4 +400,4 @@ function Env(t, e) {
       this.log("", `🔔${this.name}, 结束! 🕛 ${s} 秒`), this.log(), (this.isSurge() || this.isQuanX() || this.isLoon()) && $done(t)
     }
   }(t, e)
- }
+}
