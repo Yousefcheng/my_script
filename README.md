@@ -2,14 +2,16 @@
 
 
 docker run -dit \
-   -v $PWD/ql2/config:/ql/config \
-   -v $PWD/ql2/log:/ql/log \
-   -v $PWD/ql2/db:/ql/db \
-   -p 8888:5700 \
-   --name ql2 \
-   --hostname ql2 \
-   --restart always \
-   limoe/qinglong:latest
+-v $PWD/ql/config:/ql/config \
+-v $PWD/ql/scripts:/ql/scripts \
+-v $PWD/ql/repo:/ql/repo \
+-v $PWD/ql/log:/ql/log \
+-v $PWD/ql/db:/ql/db \
+-p 8888:5700 \
+--name qinglong \
+--hostname qinglong \
+--restart always \
+limoe/qinglong:latest
 
 青蛙库
 ql repo https://github.com/smiek2221/scripts.git "jd_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
