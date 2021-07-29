@@ -2,14 +2,14 @@
 
 
 docker run -dit \
--v $PWD/ql/config:/ql/config \
--v $PWD/ql/scripts:/ql/scripts \
--v $PWD/ql/repo:/ql/repo \
--v $PWD/ql/log:/ql/log \
--v $PWD/ql/db:/ql/db \
+-v $PWD/ql2/config:/ql/config \
+-v $PWD/ql2/scripts:/ql/scripts \
+-v $PWD/ql2/repo:/ql/repo \
+-v $PWD/ql2/log:/ql/log \
+-v $PWD/ql2/db:/ql/db \
 -p 8888:5700 \
---name qinglong \
---hostname qinglong \
+--name ql2 \
+--hostname ql2 \
 --restart always \
 limoe/qinglong:latest
 
