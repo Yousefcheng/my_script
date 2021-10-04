@@ -5,8 +5,6 @@
 
 
 import  requests
-from lxml import etree
-import json
 
 
 # In[2]:
