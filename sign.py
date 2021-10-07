@@ -50,7 +50,7 @@ login_data={
     'currentMenu':"1",
     'execution':"e1s1",
 #     "geolocation":"",
-    'password':aoxiangpasswd,
+    'password':passwd,
 #     "submit":"=%E7%A8%8D%E7%AD%89%E7%89%87%E5%88%BB%E2%80%A6%E2%80%A6",
     'username':"2021264575"
 }
