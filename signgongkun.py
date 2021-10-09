@@ -102,7 +102,7 @@ body={
 }
 res=s.get('http://yqtb.nwpu.edu.cn/')
 response = s.post(url,headers=headers,data=body)
-
+print(response.text)
 
 # In[ ]:
 
