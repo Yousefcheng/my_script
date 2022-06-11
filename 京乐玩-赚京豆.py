@@ -15,7 +15,7 @@ from requests import ConnectTimeout
 
 activatyname = "京乐玩-瓜分京豆"
 salt = "cXRofWK6"
-me = ""  # 小程序openid 留空
+me = "oKvo342MPZX9ZvwYlfGNhFN_kR7g"  # 小程序openid 留空
 group_size = 200 # 并发数建议 50-1500 
 
 inveteck = 'pt_key=AAJimFvmADABV0ZN9HF4R9S1aqEChaufDwIDSrJ2k0W7l3fd1KbIZiAjTrm6N8TbVWToKIo4Tow;pt_pin=jd_4d6f1c7a79773;'  # 车头子ck
